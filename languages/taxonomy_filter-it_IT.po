@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Taxonomy filter\n"
+"POT-Creation-Date: 2017-01-14 15:00+0100\n"
+"PO-Revision-Date: 2017-01-14 15:00+0100\n"
+"Last-Translator: Andrea Landonio <landonio.andrea@gmail.com>\n"
+"Language-Team: Andrea Landonio <landonio.andrea@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: taxonomy-filter-bulks.php:70
+msgid "Filter by"
+msgstr "Filtra per"
+
+#: taxonomy-filter-settings.php:33
+msgid "Taxonomy filter settings"
+msgstr "Impostazioni taxonomy filter"
+
+#: taxonomy-filter-settings.php:41
+msgid "Confirm reset"
+msgstr "Conferma reset"
+
+#: taxonomy-filter-settings.php:44
+msgid "Resetting.."
+msgstr "Resetting.."
+
+#: taxonomy-filter-settings.php:58
+msgid ""
+"Choose in which taxonomy admin page box show filter field. Change \"hide "
+"filter\" checkbox if you want to hide filter field if taxonomy has no "
+"values. You can enable a taxonomy filter by checking his checkbox input "
+"beside taxonomy names."
+msgstr ""
+"Scegli in quale tassonomia vuoi mostrare il filtro. Abilita l'opzione "
+"\"Nascondi filtro\" se non vuoi mostrare il campo nel caso in cui la "
+"tassonomia fosse vuota. Puoi abilitare il filtro sulla tassonomia attivando "
+"la checkbox accanto ad nome della tassonomia."
+
+#: taxonomy-filter-settings.php:59
+msgid ""
+"When you enable a taxonomy filter, a section for choosing hidden taxonomy "
+"terms is displayed in every WordPress user profile's settings page. In that "
+"page you can select a list of taxonomy terms that are automatically removed "
+"from hierarchical term taxonomies inside admin pages."
+msgstr ""
+"Quando si attiva un filtro tassonomia, una sezione per la scelta di "
+"eventuali termini da nascondere viene visualizzata nella pagina delle "
+"impostazioni di ogni profilo utente WordPress. In tale pagina è possibile "
+"selezionare un elenco di termini che verranno automaticamente rimossi dalle "
+"liste delle tassonomie gerarchiche all'interno di pagine di amministrazione."
+
+#: taxonomy-filter-settings.php:60
+msgid "Note: The plugin does not support non-hierarchical tags."
+msgstr "Nota: Il plugin non supporta tags non gerarchici."
+
+#: taxonomy-filter-settings.php:69
+msgid "Save"
+msgstr "Salva"
+
+#: taxonomy-filter-settings.php:70
+msgid "Reset"
+msgstr "Reset"
+
+#: taxonomy-filter-settings.php:89 taxonomy-filter-settings.php:98
+msgid "Name"
+msgstr "Nome"
+
+#: taxonomy-filter-settings.php:90 taxonomy-filter-settings.php:99
+msgid "Slug"
+msgstr "Slug"
+
+#: taxonomy-filter-settings.php:91 taxonomy-filter-settings.php:100
+msgid "Rewrite slug"
+msgstr "Rewrite slug"
+
+#: taxonomy-filter-settings.php:92 taxonomy-filter-settings.php:101
+msgid "Options"
+msgstr "Opzioni"
+
+#: taxonomy-filter-settings.php:140
+msgid "Hide filter if no element of the taxonomy is associated"
+msgstr "Nascondi il filtro se nessun elemento della tassonomia è associato"
+
+#: taxonomy-filter-terms.php:11 taxonomy-filter-terms.php:32
+msgid "Taxonomy filter options"
+msgstr "Opzioni Taxonomy filter"
+
+#: taxonomy-filter-terms.php:13 taxonomy-filter-terms.php:35
+#: taxonomy-filter-terms.php:76
+msgid "Hidden in filters"
+msgstr "Nascosto nei filtri"
+
+#: taxonomy-filter-terms.php:15 taxonomy-filter-terms.php:38
+msgid "Set if you want to hide term in taxonomy filters."
+msgstr "Attiva se vuoi nascondere la tassonomia dai filtri."
+
+#: taxonomy-filter-users.php:10
+msgid "Taxonomy Filters Management"
+msgstr "Gestione filtri tassonomie"
+
+#: taxonomy-filter-users.php:11
+msgid ""
+"Choose hidden taxonomy terms for the user. By default, all taxonomy terms "
+"are visible in the hierarchical term taxonomies sections inside admin pages. "
+"You can choose only from max 2 nested levels but all the children of a "
+"hidden term are automatically removed from admin pages. Keep in mind that "
+"the hidden terms are not searchable and filterable. Only taxonomies with at "
+"least one term are shown below."
+msgstr ""
+"Scegli gli eventuali termini nascosti all'utente. Per default, tutti i "
+"termini sono visibili nelle sezioni all'interno delle pagine di "
+"amministrazione. È possibile scegliere fino a massimo 2 livelli nidificati, "
+"ma tutti i figli di un termine nascosto sono automaticamente rimossi dalla "
+"pagine di amministrazione. Ricorda che i termini nascosti non sono "
+"ricercabili e filtrabili. Solo le tassonomie con almeno un termine sono "
+"visualizzate nella sezione sottostante."
+
+#: taxonomy-filter-users.php:14
+msgid "Hidden terms"
+msgstr "Termini nascosti"
+
+#: taxonomy-filter-users.php:39
+msgid "Taxonomy:"
+msgstr "Tassonomia:"
+
+#: taxonomy-filter.php:209
+msgid "Filter"
+msgstr "Filtra"
+
+#: taxonomy-filter.php:212
+msgid "Use the above field to apply filter"
+msgstr "Usa il campo qui sopra per filtrare"
+
+#~ msgid "Hide filter if no taxonomy's element is associated"
+#~ msgstr "Nascondi il filtro se nessun elemento della tassonomia è associato"
+
+#~ msgid "Hide filter if taxonomy is not associated"
+#~ msgstr "Nascondi il filtro se nessun elemento della tassonomia è associato"
+
+#~ msgid "Hide filter if taxonomy is blank"
+#~ msgstr "Nascondi il filtro se la tassonomia è vuota"
+
+#~ msgid ""
+#~ "Choose hidden taxonomy terms for the user. By default, all taxonomy terms "
+#~ "are visible in the hierarchical term taxonomies sections inside admin "
+#~ "pages. You can choose only from max 2 nested levels but all the children "
+#~ "of a hidden term are automatically removed from admin pages. Keep in mind "
+#~ "that the hidden terms are not searchable and filterable."
+#~ msgstr ""
+#~ "Scegli gli eventuali termini nascosti all'utente. Per default, tutti i "
+#~ "termini sono visibili nelle sezioni all'interno delle pagine di "
+#~ "amministrazione. È possibile scegliere fino a massimo 2 livelli "
+#~ "nidificati, ma tutti i figli di un termine nascosto sono automaticamente "
+#~ "rimossi dalla pagine di amministrazione. Ricorda che i termini nascosti "
+#~ "non sono ricercabili e filtrabili."
+
+#~ msgid ""
+#~ "When you enable a taxonomy filter, a section for choosing hidden taxonomy "
+#~ "terms is displayed in every WordPress user profile's settings page. In "
+#~ "this page you can select a list of taxonomy terms that are removed from "
+#~ "hierarchical term taxonomies inside admin pages."
+#~ msgstr ""
+#~ "Quando si attiva un filtro tassonomia, una sezione per la scelta di "
+#~ "eventuali termini da nascondere viene visualizzata nella pagina delle "
+#~ "impostazioni di ogni profilo utente WordPress. In tale pagina è possibile "
+#~ "selezionare un elenco di termini che verranno automaticamente rimossi "
+#~ "dalle liste delle tassonomie gerarchiche all'interno di pagine di "
+#~ "amministrazione."
+
+#~ msgid "Hidden taxonomy terms"
+#~ msgstr "Termini nascosti"
+
+#~ msgid ""
+#~ "Choose in which taxonomy admin page box show filter field. Change \"hide "
+#~ "filter\" checkbox if you want to hide filter field if taxonomy has no "
+#~ "values. You can enable a taxonomy filter by checking his checkbox input "
+#~ "beside taxonomy names.<br /><span class=\"description\">Note: The plugin "
+#~ "does not support non-hierarchical tags.</span>"
+#~ msgstr ""
+#~ "Scegli in quale tassonomia vuoi mostrare il filtro. Abilita l'opzione "
+#~ "\"Nascondi filtro\" se non vuoi mostrare il campo nel caso in cui la "
+#~ "tassonomia fosse vuota. Puoi abilitare il filtro sulla tassonomia "
+#~ "attivando la checkbox accanto ad nome della tassonomia.<br /><span class="
+#~ "\"description\">Nota: Il plugin non supporta i tags non gerarchici.</span>"
+
+#~ msgid "taxonomy"
+#~ msgstr "tassonomia"

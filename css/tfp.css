@@ -1,0 +1,98 @@
+/* ADMIN SETTINGS PAGE */
+p.tips {margin: 10px 0 20px}
+table.taxonomy-filter-table tr:hover {background: #EDEDED;}
+.options-column {width: 300px;}
+.label-column label {display: block; height:30px;}
+td.taxonomy_filter_hidden_taxonomy {display: inline-block;}
+div.taxonomy_filter_hidden_taxonomy {margin: 5px 5px 5px 0; font-style: italic; display: inline-block; vertical-align: top;}
+select.taxonomy_filter_hidden_taxonomy {min-width: 200px; min-height: 200px;}
+span.taxonomy_filter_hidden_taxonomy {color: #006799; font-size: 0.9em;}
+.column-tfp_hidden {width: 60px !important; text-align: center !important;}
+.terms-tfp-wrap.term-row-head {margin: 30px 0 0; font-size: 1.1em; font-weight: bold;}
+.terms-tfp-wrap th.term-row-head {font-size: 23px; font-weight: normal; margin: 0; padding: 15px 0 5px; line-height: 29px;}
+.terms-tfp-wrap label {display: inline;}
+
+/* BUTTONS ANS INPUTS */
+.taxonomy_filter_value {
+    width: 130px;
+    margin: 10px 0 0 3px;
+    border: 1px solid #CCCCCC;
+}
+
+.taxonomy_filter_reset {
+    cursor: pointer;
+    background: #E1E1E1;
+    border: 1px solid #AAAAAA;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 7px 4px;
+    color: #666666;
+}
+
+.taxonomy_filter_reset:hover {
+    color: #FFFFFF !important;
+}
+
+.button-primary.reset {
+    background-color: #BA032E;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#BA032E), to(#8C0002));
+    background-image: -webkit-linear-gradient(top, #BA032E, #8C0002);
+    background-image: -moz-linear-gradient(top, #BA032E, #8C0002);
+    background-image: -ms-linear-gradient(top, #BA032E, #8C0002);
+    background-image: -o-linear-gradient(top, #BA032E, #8C0002);
+    background-image: linear-gradient(to bottom, #BA032E, #8C0002);
+    text-shadow: 0 -1px 1px #BA032E,1px 0 1px #BA032E,0 1px 1px #BA032E,-1px 0 1px #BA032E;
+    box-shadow: 0 0 0;
+    border-color: #800;
+    float: right;
+}
+
+.button-primary.reset:hover, .button-primary.reset:focus {
+    background-color: #D30434;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#D30434), to(#8C0002));
+    background-image: -webkit-linear-gradient(top, #D30434, #8C0002);
+    background-image: -moz-linear-gradient(top, #D30434, #8C0002);
+    background-image: -ms-linear-gradient(top, #D30434, #8C0002);
+    background-image: -o-linear-gradient(top, #D30434, #8C0002);
+    background-image: linear-gradient(to bottom, #D30434, #8C0002);
+    text-shadow: 0 -1px 1px #BA032E,1px 0 1px #BA032E,0 1px 1px #BA032E,-1px 0 1px #BA032E;
+    box-shadow: 0 0 0;
+    border-color: #800;
+}
+
+.button-primary.reset.disabled, .button-primary.reset.disabled:hover {
+    background-color: #8C0002;
+    background-image: none;
+    border-color: #800;
+    color: rgba(255,255,255,.5);
+    cursor: default;
+}
+
+.bubble-float-left {
+    display: inline-block;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    font-style: italic;
+}
+
+.bubble-float-left:hover, .bubble-float-left:focus, .bubble-float-left:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#D30434), to(#8C0002));
+    background-image: -webkit-linear-gradient(top, #D30434, #8C0002);
+    background-image: -moz-linear-gradient(top, #D30434, #8C0002);
+    background-image: -ms-linear-gradient(top, #D30434, #8C0002);
+    background-image: -o-linear-gradient(top, #D30434, #8C0002);
+    background-image: linear-gradient(to bottom, #D30434, #8C0002);
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+    border: 1px solid #CCCCCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
