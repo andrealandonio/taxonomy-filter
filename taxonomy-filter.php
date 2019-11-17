@@ -6,7 +6,7 @@ Author: Andrea Landonio
 Author URI: http://www.andrealandonio.it
 Text Domain: taxonomy_filter
 Domain Path: /languages/
-Version: 2.2.3
+Version: 2.2.4
 License: GPL v3
 
 Taxonomy filter
@@ -247,7 +247,7 @@ function taxonomy_filter_add_boxes() {
                         // Hide items without children or show previously hidden items (now valid)
                         if (jQuery(this).children("ul.children.filter-exists").length === 0 && jQuery(this).parent("ul.children").parent("li.filter-exists").length === 0) {
                             // Hide items (without a child with class "filter-exists" or without a parent with class "filter-exists")
-                            jQuery(this).hide();
+                            //jQuery(this).hide();
                         }
                         else {
                             // Show items (with at least a child with class "filter-exists")
