@@ -3,7 +3,7 @@
 **Tags:** usability, filter, admin, category, tag, term, taxonomy, hierarchy, organize, manage  
 **Requires at least:** 4.0  
 **Tested up to:** 5.3  
-**Stable tag:** 2.2.4  
+**Stable tag:** 2.2.5  
 **License:** GPLv3  
 **License URI:** http://www.gnu.org/licenses/gpl.html  
 
@@ -86,6 +86,9 @@ Yes, by default you can filter all the taxonomies that you have enabled in taxon
 
 
 ## Changelog ##
+
+### 2.2.5 - 2019-11-21 ###
+* Restored hide items
 
 ### 2.2.4 - 2019-11-17 ###
 * Remove hide items
