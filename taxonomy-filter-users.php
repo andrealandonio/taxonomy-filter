@@ -19,6 +19,12 @@ function taxonomy_filter_show_custom_profile_fields( $user ) {
         
                 // Loop over taxonomy_filter option items
                 $empty_taxonomy = true;
+
+                // Convert to iterable object
+                if ( 'object' == gettype( $options ) ) {
+                    $options = get_object_vars( $options );
+                }
+
                 if ( count( $options ) > 0 ) {
                     foreach ( $options as $taxonomy ) {
                         // If current taxonomy is enabled for replace add filter box

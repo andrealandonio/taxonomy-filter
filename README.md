@@ -2,8 +2,8 @@
 **Contributors:** [lando1982](https://profiles.wordpress.org/lando1982)  
 **Tags:** usability, filter, admin, category, tag, term, taxonomy, hierarchy, organize, manage  
 **Requires at least:** 4.0  
-**Tested up to:** 5.4  
-**Stable tag:** 2.2.5  
+**Tested up to:** 5.5  
+**Stable tag:** 2.2.6  
 **License:** GPLv3  
 **License URI:** http://www.gnu.org/licenses/gpl.html  
 
@@ -86,6 +86,9 @@ Yes, by default you can filter all the taxonomies that you have enabled in taxon
 
 
 ## Changelog ##
+
+### 2.2.6 - 2020-10-27 ###
+* Added conversion to iterable objects
 
 ### 2.2.5 - 2019-11-21 ###
 * Restored hide items

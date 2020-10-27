@@ -6,11 +6,11 @@ Author: Andrea Landonio
 Author URI: http://www.andrealandonio.it
 Text Domain: taxonomy_filter
 Domain Path: /languages/
-Version: 2.2.5
+Version: 2.2.6
 License: GPL v3
 
 Taxonomy filter
-Copyright (C) 2013-2019, Andrea Landonio - landonio.andrea@gmail.com
+Copyright (C) 2013-2020, Andrea Landonio - landonio.andrea@gmail.com
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
