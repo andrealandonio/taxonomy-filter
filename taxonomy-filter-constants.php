@@ -3,7 +3,7 @@
  DEFINITION AND CONSTANTS
  ***************************************************/
 
-define( 'TFP_VERSION', '2.2.8' );
+define( 'TFP_VERSION', '2.2.9' );
 define( 'TFP_PREFIX', 'taxonomy_filter' );
 define( 'TFP_OPTIONS', 'taxonomy_filter' );
 define( 'TFP_DEFAULT_REPLACE', 0 );
