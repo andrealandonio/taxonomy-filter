@@ -3,7 +3,7 @@ Contributors: lando1982
 Tags: usability, filter, admin, category, tag, term, taxonomy, hierarchy, organize, manage
 Requires at least: 4.0
 Tested up to: 5.9
-Stable tag: 2.2.8
+Stable tag: 2.2.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -76,6 +76,9 @@ Yes, by default you can filter all the taxonomies that you have enabled in taxon
 5. User hidden taxonomy terms selection
 
 == Changelog ==
+
+= 2.2.9 - 2022-11-15 =
+* Added "taxonomy_filter_profile_table" for hiding user profile fields
 
 = 2.2.8 - 2021-03-14 =
 * Tested up with WordPress 5.7 release
