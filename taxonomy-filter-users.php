@@ -7,9 +7,9 @@
 function taxonomy_filter_show_custom_profile_fields( $user ) {
     if ( current_user_can( 'list_users' ) ) {
         ?>
-        <h3><?php _e( 'Taxonomy Filters Management', TFP_PREFIX ) ?></h3>
-        <div class="description"><?php _e( 'Choose hidden taxonomy terms for the user. By default, all taxonomy terms are visible in the hierarchical term taxonomies sections inside admin pages. You can choose only from max 2 nested levels but all the children of a hidden term are automatically removed from admin pages. Keep in mind that the hidden terms are not searchable and filterable. Only taxonomies with at least one term are shown below.', TFP_PREFIX ) ?></div>
-        <table class="form-table">
+        <h3 class="taxonomy_filter_profile_table"><?php _e( 'Taxonomy Filters Management', TFP_PREFIX ) ?></h3>
+        <div class="taxonomy_filter_profile_table description"><?php _e( 'Choose hidden taxonomy terms for the user. By default, all taxonomy terms are visible in the hierarchical term taxonomies sections inside admin pages. You can choose only from max 2 nested levels but all the children of a hidden term are automatically removed from admin pages. Keep in mind that the hidden terms are not searchable and filterable. Only taxonomies with at least one term are shown below.', TFP_PREFIX ) ?></div>
+        <table class="taxonomy_filter_profile_table form-table">
             <tr>
                 <th><label for="<?php echo TFP_META_HIDDEN_TAXONOMIES ?>"><?php _e( 'Hidden terms', TFP_PREFIX ) ?></label></th>
                 <?php
