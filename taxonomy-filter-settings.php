@@ -21,7 +21,7 @@ function taxonomy_filter_admin_init() {
         $nonce_name = 'taxonomy_filter_main_action_nonce'; // Use a consistent nonce name
 
         // Add nonce check
-        if (isset($_POST[$nonce_name]) && wp_verify_nonce($_POST[$nonce_name], 'taxonomy_filter_main_action_nonce')) {
+        if ( isset( $_POST[ $nonce_name ] ) && wp_verify_nonce( $_POST[ $nonce_name ], 'taxonomy_filter_main_action_nonce' ) ) {
             taxonomy_filter_save_main_settings();
         }
     }
@@ -70,7 +70,7 @@ function taxonomy_filter_settings() {
                         // Prints out all settings of taxonomy filter main settings page
                         do_settings_sections( 'taxonomy_filter_main_section' );
                         $nonce_name = 'taxonomy_filter_main_action_nonce'; // Use a consistent nonce name
-                        wp_nonce_field($nonce_name, $nonce_name);
+                        wp_nonce_field( $nonce_name, $nonce_name );
                         ?>
                         <input id="form_main_action" name="taxonomy_filter_main_action" type="hidden" value="taxonomy_filter_main_update" /><br />
                         <p>
