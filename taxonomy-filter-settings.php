@@ -1,8 +1,4 @@
 <?php
-// Check request data before save main settings
-if ( ( isset( $_GET[ 'page' ] ) && $_GET[ 'page' ] == TFP_PREFIX ) && isset( $_POST[ 'taxonomy_filter_main_action' ] ) ) {
-    taxonomy_filter_save_main_settings();
-}
 
 /**
  * Load internalization supports
@@ -18,6 +14,17 @@ add_action( 'plugins_loaded', 'taxonomy_filter_load_textdomain' );
 function taxonomy_filter_admin_init() {
 	register_setting( 'taxonomy_filter_options', TFP_OPTIONS );
     add_settings_section( 'taxonomy_filter_main', '', 'taxonomy_filter_option_main_show', 'taxonomy_filter_main_section' );
+
+    // Check request data before save main settings
+    if ( ( isset( $_GET[ 'page' ] ) && $_GET[ 'page' ] == TFP_PREFIX ) && isset( $_POST[ 'taxonomy_filter_main_action' ] ) ) {
+        
+        $nonce_name = 'taxonomy_filter_main_action_nonce'; // Use a consistent nonce name
+
+        // Add nonce check
+        if (isset($_POST[$nonce_name]) && wp_verify_nonce($_POST[$nonce_name], 'taxonomy_filter_main_action_nonce')) {
+            taxonomy_filter_save_main_settings();
+        }
+    }
 }
 add_action( 'admin_init', 'taxonomy_filter_admin_init' );
 
@@ -62,8 +69,9 @@ function taxonomy_filter_settings() {
                         <?php
                         // Prints out all settings of taxonomy filter main settings page
                         do_settings_sections( 'taxonomy_filter_main_section' );
+                        $nonce_name = 'taxonomy_filter_main_action_nonce'; // Use a consistent nonce name
+                        wp_nonce_field($nonce_name, $nonce_name);
                         ?>
-
                         <input id="form_main_action" name="taxonomy_filter_main_action" type="hidden" value="taxonomy_filter_main_update" /><br />
                         <p>
                             <input name="submit" type="submit" class="button-primary taxonomy_filter_main" value="<?php _e( 'Save', TFP_PREFIX ) ?>" />
