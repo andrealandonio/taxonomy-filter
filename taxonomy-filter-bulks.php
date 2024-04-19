@@ -52,7 +52,7 @@ add_filter( 'manage_posts_columns', 'taxonomy_filter_manage_bulk_columns', 10, 1
 function taxonomy_filter_add_to_bulk_quick_edit_custom_box($column_name) {
 	// Get hidden taxonomies
 	$options = get_option( TFP_OPTIONS );
-	$hidden_taxonomies = $options->hidden;
+    $hidden_taxonomies = ( isset( $options->hidden ) && ! empty( $options->hidden ) ) ? $options->hidden : null;
 	if ( empty( $hidden_taxonomies ) ) $hidden_taxonomies = array();
 
 	// Get current user hidden taxonomies
