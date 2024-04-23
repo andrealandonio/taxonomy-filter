@@ -6,7 +6,7 @@ Author: Andrea Landonio
 Author URI: http://www.andrealandonio.it
 Text Domain: taxonomy_filter
 Domain Path: /languages/
-Version: 2.2.11
+Version: 2.2.12
 License: GPL v3
 
 Taxonomy filter

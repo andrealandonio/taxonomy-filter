@@ -123,7 +123,7 @@ function taxonomy_filter_main_fields() {
                 // Loop taxonomies
                 foreach ( $taxonomies as $taxonomy ) {
                     // Retrieve current taxonomy data
-                    $slug = $taxonomy->rewrite[ 'slug' ];
+                    $slug = is_bool( $taxonomy->rewrite ) || empty( $taxonomy->rewrite[ 'slug' ] ) ? '': $taxonomy->rewrite[ 'slug' ];
                     $name = $taxonomy->name;
 
                     // Append taxonomy name to a variable containing taxonomy list
