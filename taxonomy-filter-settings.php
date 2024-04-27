@@ -37,7 +37,7 @@ function taxonomy_filter_settings() {
 	?>
 	<div class="wrap">
         <div class="icon32"><img src="<?php echo plugins_url( 'taxonomy-filter/images/icon32.png' ) ?>" /></div>
-        <h2><?php _e( 'Taxonomy filter settings', TFP_PREFIX ) ?></h2>
+        <h2><?php _e( 'Taxonomy Filter settings', TFP_PREFIX ) ?></h2>
 
         <script type="text/javascript">
         jQuery(document).ready(function($) {

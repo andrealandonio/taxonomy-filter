@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Taxonomy filter\n"
+"Project-Id-Version: Taxonomy Filter\n"
 "POT-Creation-Date: 2017-01-14 15:00+0100\n"
 "PO-Revision-Date: 2017-01-14 15:00+0100\n"
 "Last-Translator: Andrea Landonio <landonio.andrea@gmail.com>\n"
@@ -20,8 +20,8 @@ msgid "Filter by"
 msgstr "Filtra per"
 
 #: taxonomy-filter-settings.php:33
-msgid "Taxonomy filter settings"
-msgstr "Impostazioni taxonomy filter"
+msgid "Taxonomy Filter settings"
+msgstr "Impostazioni Taxonomy Filter"
 
 #: taxonomy-filter-settings.php:41
 msgid "Confirm reset"
@@ -89,8 +89,8 @@ msgid "Hide filter if no element of the taxonomy is associated"
 msgstr "Nascondi il filtro se nessun elemento della tassonomia è associato"
 
 #: taxonomy-filter-terms.php:11 taxonomy-filter-terms.php:32
-msgid "Taxonomy filter options"
-msgstr "Opzioni Taxonomy filter"
+msgid "Taxonomy Filter options"
+msgstr "Opzioni Taxonomy Filter"
 
 #: taxonomy-filter-terms.php:13 taxonomy-filter-terms.php:35
 #: taxonomy-filter-terms.php:76

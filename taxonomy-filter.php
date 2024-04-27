@@ -1,15 +1,15 @@
 <?php
 /*
-Plugin Name: Taxonomy filter
+Plugin Name: Taxonomy Filter
 Description: Adds an input field to filter taxonomy values on admin post pages and, for some user, hides several taxonomy terms according to admin settings
 Author: Andrea Landonio
 Author URI: http://www.andrealandonio.it
 Text Domain: taxonomy_filter
 Domain Path: /languages/
-Version: 2.2.12
+Version: 2.2.13
 License: GPL v3
 
-Taxonomy filter
+Taxonomy Filter
 Copyright (C) 2013-2023, Andrea Landonio - landonio.andrea@gmail.com
 
 This program is free software: you can redistribute it and/or modify
@@ -144,7 +144,7 @@ function taxonomy_filter_setting_menu() {
     wp_enqueue_style( 'taxonomy_filter_style' );
 
     // Add option page
-    add_options_page( 'Taxonomy filter', 'Taxonomy filter', 'manage_options', TFP_PREFIX, 'taxonomy_filter_settings' );
+    add_options_page( 'Taxonomy Filter', 'Taxonomy Filter', 'manage_options', TFP_PREFIX, 'taxonomy_filter_settings' );
 }
 add_action( 'admin_menu', 'taxonomy_filter_setting_menu' );
 

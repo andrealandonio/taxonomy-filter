@@ -8,7 +8,7 @@ require_once( 'taxonomy-filter-constants.php' );
 function taxonomy_filter_terms_add_form_fields() {
 	wp_nonce_field( basename( __FILE__ ), TFP_TERMS_NONCE );
 	?>
-    <div class="form-field terms-tfp-wrap term-row-head"><?php _e( 'Taxonomy filter options', TFP_PREFIX ) ?></div>
+    <div class="form-field terms-tfp-wrap term-row-head"><?php _e( 'Taxonomy Filter options', TFP_PREFIX ) ?></div>
     <div class="form-field terms-tfp-wrap">
         <label for="<?php echo TFP_TERMS_FIELD_HIDDEN ?>"><?php _e( 'Hidden in filters', TFP_PREFIX ) ?></label>&nbsp;
         <input type="checkbox" name="<?php echo TFP_TERMS_FIELD_HIDDEN ?>" id="<?php echo TFP_TERMS_FIELD_HIDDEN ?>" value="1" class="<?php echo TFP_TERMS_FIELD_HIDDEN ?>" />
@@ -29,7 +29,7 @@ function taxonomy_filter_terms_edit_form_fields( $term ) {
 	<?php wp_nonce_field( basename( __FILE__ ), TFP_TERMS_NONCE ) ?>
 
     <tr class="form-field terms-tfp-wrap">
-        <th scope="row" colspan="2" class="term-row-head"><?php _e( 'Taxonomy filter options', TFP_PREFIX ) ?></th>
+        <th scope="row" colspan="2" class="term-row-head"><?php _e( 'Taxonomy Filter options', TFP_PREFIX ) ?></th>
     </tr>
     <tr class="form-field terms-tfp-wrap">
         <th scope="row"><label for="<?php echo TFP_TERMS_FIELD_HIDDEN ?>"><?php _e( 'Hidden in filters', TFP_PREFIX ) ?></label></th>
